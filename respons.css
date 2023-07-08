@@ -1,0 +1,176 @@
+@media (max-width: 767px) {
+
+     
+
+
+    .section2{
+        padding: 0px;
+    }
+
+    .section2 .section2box1{
+        width: 50%;
+text-align: center;
+    }
+
+    .secton3{
+        padding-top: 50px;
+        margin-bottom: 50px;
+        flex-direction: column-reverse;
+        /* justify-content: center; */
+        align-items: center;
+    }
+    .product1 h3{
+        padding: 0;
+margin-bottom: 0;
+text-align: inherit;
+    }
+
+.productbox .productboxrow {
+
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.productboxrowitem{
+    display: flex;
+    width: 100%;
+    margin-right: 0px;
+    font-size: 16px;
+}
+
+.productboxrow .Craditem{
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.Trust {
+    margin-bottom: 50px;
+}
+.Trust h3{
+    font-size: 20px;
+}
+.trustbox{
+    width: 199vw;
+}
+
+.section4box{
+    display: flex;
+    flex-direction: column;
+}
+.section4boxtext{
+    margin: 11px 0px;
+}
+.section5{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.getbtn{
+    width: 114px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section5boxsubhed{
+    display: flex;
+    flex-direction: column;
+}
+.section5subbox1{
+    width: 172px;
+    padding: 20px;
+    margin: 0 20px;
+    margin-bottom: 27px;
+    font-weight: 700;
+    color: #000 !important;
+    background-color: #fbdc00;;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section5subbox2 {
+  
+    width: 178px;
+    padding: 20px 12px;
+    margin: 0 20px;
+    margin-bottom: 27px;
+    font-weight: 700;
+    color: #000 !important;
+    background-color: #e5dfdf;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.section5down{
+    display: flex;
+    flex-direction: column;
+}
+
+#section5downbox{
+    display: flex;
+    justify-content: center;
+}
+
+#section5downbox img{
+    width: 589px;
+    height: 320px;
+    margin: 61px;
+}
+.section5card{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.section6box{
+    width: 100%;
+}
+.section7box{
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.section7boxitem1 .btn{
+    width: 100%;
+}
+.section8{
+    width: 100%;
+}
+.section8boxitems{
+    flex-direction: column;
+    align-items: flex-start;
+}
+.section9boxitems{
+    flex-direction: column;
+align-items: center;
+}
+.section9boxcard{
+    width: 100%;
+}
+.section9boxcarditem img{
+    width: 100%;
+}
+.subscribe{
+    flex-direction: column-reverse;
+}
+.section11{
+    flex-direction: column;
+    align-items: center;
+}
+.footer2box{
+    flex-direction: column;
+    align-items: center;
+}
+.footer2boxitem{
+    margin-bottom: 20px;
+}
+.footer3box{
+    flex-direction: column;
+    align-items: center;
+}
+.footer3boxitem{
+    flex-direction: column;
+    align-items: center;
+}
+
+}
