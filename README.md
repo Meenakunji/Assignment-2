@@ -3,7 +3,7 @@ Clone Of the Cogoport Home page fully responsive.
 
 Responsive web page 
 
-![image](https://github.com/Meenakunji/Assignment-2/assets/83979451/69258dc3-4707-4f88-8984-6c16ac56b0b0)
+
 
 
 
