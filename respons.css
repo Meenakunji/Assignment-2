@@ -1,6 +1,8 @@
 @media (max-width: 767px) {
 
-     
+     .navbar{
+        flex-direction: column;
+     }
 
 
     .section2{
@@ -171,6 +173,52 @@ align-items: center;
 .footer3boxitem{
     flex-direction: column;
     align-items: center;
+}
+.headercontent{
+    flex-direction: column-reverse;
+    height: auto;
+}
+.headercontent{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-items: left;
+    justify-content: space-between;
+    /* margin-top: 11px; */
+    z-index: 1;
+    width: 100%;
+    position: relative;
+    /* width: 100%; */
+    /* padding-top: 25px; */
+    /* margin-top: -57px; */
+    background: url(https://cdn.cogoport.io/cms-prod/cogo_public/vault/original/home-banner-background-1.webp);
+   
+    background-repeat: no-repeat;
+    background-position: bottom;
+   
+    display: flex;
+    justify-content: center;
+    z-index: -12;
+    align-items: center;
+}
+.headercontentleft{
+    padding-bottom: 22px;
+    flex: 1 1;
+}
+.headercontentright{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.video{
+    height: 646px;
+    width: 908px;
+}
+.section6boxitems{
+    flex-flow: wrap;
+}
+.section6boxintem{
+    width: 25%;
+    text-align: center;
 }
 
 }
