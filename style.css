@@ -44,6 +44,9 @@ body {
 
     color: black;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+
 }
 
 
@@ -60,6 +63,29 @@ body {
 .navbox1 h6{
     margin-top: 5px;
     margin-bottom: 1px;
+}
+
+.navbox1 .menuicon{
+    /* display: none; */
+    flex-direction: column;
+    cursor: pointer;
+    margin-right: 20px;
+    opacity: 0;
+
+}
+
+.navbox1 .bar{
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 3px 0;
+    border-radius: 3px;
+}
+
+.navbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .navbar .navbox2 ul {
@@ -133,9 +159,10 @@ body {
     /* background-color: rebeccapurple; */
     /* height: 571px;
     width: 639px; */
-    padding-left: 76px;
+    /* padding-left: 76px; */
     padding-top: 9px;
     flex: 1 1;
+    margin-right: 126px;
 }
 
 .headerdown .headercontent .headercontentleft h1 {

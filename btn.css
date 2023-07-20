@@ -53,6 +53,7 @@ display: inline-block;
 font-size: 14px;
 color: beige;
 pointer-events: visiblestroke;
+cursor: pointer;
 }
 
 .section5subbox1 {

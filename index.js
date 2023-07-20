@@ -8,4 +8,23 @@ window.addEventListener("scroll", function() {
         conatiner1.style.backgroundColor = "";
     }
   });
+
+  navbox = document.querySelector(".navbox");
+
+  
+
+  burger = document.querySelector(".menuicon");
+
+  burger.addEventListener("click", function(){
+      
+      navbox.classList.toggle("vis");
+      navbox.classList.toggle("hnav");
+
+       
+  });
+
+
+
+
+
   
